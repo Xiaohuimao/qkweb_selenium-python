@@ -3,11 +3,18 @@
 import time
 import unittest
 from base_page import BasePage
+import request_geturl as rg
 
 class Test(unittest.TestCase):
 	
 	def setUp(self):
 		self.brower=BasePage()
+		'''
+		params={"user_token":'market_12'}
+		text=rg.request_post("https://fulldev.yjifs.com/tools/tools/get_technical_choose_data?technical_name=KDJ1")
+		text_urls=test['datas']
+		for url in text_url:
+		'''
 		self.url='http://ad.cjs.com.cn/template/html/81/5b46bbcbcb081.html'
 		self.brower.open_url(self.url)
 		
@@ -20,8 +27,6 @@ class Test(unittest.TestCase):
 		time.sleep(2)
 		self.brower.click('//*[@id="btnSave"]')
 		self.brower.type('//*[@id="mobilePhone"]',17623250366)
-		#self.brower.d()
-		#self.brower.get_page_source()
 		#领取
 		self.brower.click("/html/body/div[1]/div/div/div/ul/li[3]/button")
 		time.sleep(2)
