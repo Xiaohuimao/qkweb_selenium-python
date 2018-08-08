@@ -1109,3 +1109,16 @@ console.error: (new Error("Connection closed before committing the transaction."
 1533633075001	Marionette	INFO	Listening on port 52504
 1533633075013	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Parent 11056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1533703934225	geckodriver	INFO	geckodriver 0.19.0
+1533703934232	geckodriver	INFO	Listening on 127.0.0.1:54955
+1533703937305	mozrunner::runner	INFO	Running command: "D:\\firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.5edv5DEx3t0Y"
+1533703944837	Marionette	INFO	Listening on port 54964
+1533703945199	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9116, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1533703968773	geckodriver	INFO	geckodriver 0.19.0
+1533703968780	geckodriver	INFO	Listening on 127.0.0.1:55038
+1533703971818	mozrunner::runner	INFO	Running command: "D:\\firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.XBnFHT3P8bD9"
+1533703978422	Marionette	INFO	Listening on port 55047
+1533703979148	Marionette	WARN	TLS certificate errors will be ignored for this session

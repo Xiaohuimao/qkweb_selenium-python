@@ -3,6 +3,7 @@
 import unittest
 import os,time
 import HTMLTestRunner
+from send_email import main
 
 #获得测试用例的路径
 case_path = os.path.join(os.getcwd(),"testCase")
@@ -19,4 +20,4 @@ if __name__=="__main__":
 	runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title="资源页自动化测试报告",description="用例执行情况：")
 	runner.run(all_case())
 	fp.close()
-
+	main()
